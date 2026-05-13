@@ -178,7 +178,7 @@ module Axlsx
         unless part[:path].nil?
           zip.put_next_entry(zip_entry_for_part(part))
           # binread for 1.9.3
-          zip.write IO.respond_to?(:binread) ? IO.binread(part[:path]) : IO.read(part[:path])
+          zip.write IO.respond_to?(:binread) ? File.binread(part[:path]) : File.read(part[:path])
         end
       end
       zip
