@@ -1,3 +1,5 @@
+> **This repository is archived.** ezCater has migrated to the maintained [caxlsx](https://github.com/caxlsx/caxlsx) gem. This fork is no longer used or updated.
+
 Axlsx: Office Open XML Spreadsheet Generation
 ====================================
 [![Build Status](https://secure.travis-ci.org/randym/axlsx.svg?branch=master)](http://travis-ci.org/randym/axlsx/)
